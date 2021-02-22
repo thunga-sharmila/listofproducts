@@ -1,0 +1,137 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Laptops"
+    },
+    {
+      "id": 2,
+      "name": "Mobiles"
+    },
+    {
+      "id": 3,
+      "name": "Speakers"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lenovo",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Iphone",
+      "imageUrl": "../assets/images/mobile.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Sony",
+      "imageUrl": "../assets/images/speakers.jpg",
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "DELL",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Redmi",
+      "imageUrl": "../assets/images/mobile.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Boat",
+      "imageUrl": "../assets/images/speakers.jpg",
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "Acer",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "One Plus",
+      "imageUrl": "../assets/images/mobile.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 9,
+      "name": "JBL",
+      "imageUrl": "../assets/images/speakers.jpg",
+      "categoryId": 3
+    }
+  ],
+  "productDetails": [
+    {
+      "id": 1,
+      "name": "Lenovo",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "description": "Lenovo ThinkPad is a Windows 10 laptop with a 14.00-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i7 processor and it comes with 12GB of RAM. The Lenovo ThinkPad packs 256GB of SSD storage. Graphics are powered by Intel HD Graphics 520. Connectivity options include Wi-Fi 802.11 ac, Bluetooth and it comes with 3 USB ports ports.",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Iphone",
+      "imageUrl": "../assets/images/mobile.jpg",
+      "description": "The iPhone XR has arrived to scintillate our senses with a host of features, such as the Liquid Retina Display, a faster Face ID, and a powerful A12 Bionic Chip. Whether it's that picture-perfect portrait shot or a jaw-dropping HDR selfie, the cameras of the iPhone XR will continue to amaze you with their brilliance. Now, experience beauty, in every way.",
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Sony",
+      "imageUrl": "../assets/images/speakers.jpg",
+      "description": "Are you looking for a powerful Bluetooth speaker? If yes, bring home this Sony MHC-V02 Karaoke Bluetooth Party Speaker that features Angled Tweeters, a Jet Bass Booster options to control setting using an app as well as your voice.",
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "DELL",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "description": "With the Inspiron 5501 Thin and Light Laptop be productive on the move and stay on top of your game. This high-end laptop runs on the 10th Generation Intel Core i7 processor and 8 GB of RAM for effortless and fast multitasking. Also, for quick boot-up, this laptop has a built-in sensor that turns on the laptop when you open the lid. For a classy look, it has a Platinum Finish.",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Redmi",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "description": "With the Mi 10 Mobile Phone in your hands, you can enjoy taking splendid pictures and videos that will look as good as the work of professionals. With Qualcomm Snapdragon 865, you can enjoy seamless connectivity, efficient multitasking, and smooth gaming. This mobile phone supports 30 W Wireless Charging + 10 W Reverse Charging to give you hassle-free and fast charging. Thanks to the 16.94 cm (6.67) 3D Curved E3 AMOLED Display, your eyes will be treated to bright and clear visuals while streaming content or gaming. Gamers will be delighted with the 90 Hz refresh rate along with up to 180 Hz touch sampling for smooth and disturbance-free gameplay.",
+      "categoryId": 2
+    },
+    {
+      "id": 6,
+      "name": "Boat",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "description": "Light up your evenings with the fine-tuned divine essence of the boAt AAVANTE BAR 1150, derived from crystal clear 2.25” x 4 dynamic drivers. Fit for nearly every form of entertainment- switch between the modes to fully utilize the 60W R.M.S and 2.0 Channel Surround Sound output to suit your mood. The premium black colour design with its sleek build can be mounted up on placed anywhere to add to a home’s surroundings. Connect with Wireless Bluetooth V4.2 to any of your preferred devices and set the swing in notion, Nirvana is on the way. Connect to TV’s and other devices with the Aux port and slip into an alternate cinematic experience altogether with the surreal sound of the boAt AAVANTE BAR 1150. Equipped with an easy use control board as well as remote control, guide your audio senses to the realm of Nirvana with the boAt AAVANTE BAR 1150. Bring your home to life.",
+      "categoryId": 3
+    },
+    {
+      "id": 7,
+      "name": "Acer",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "description": "If you are looking for a gaming laptop to go on an impossible mission, then this Acer gaming laptop is ideal for you. It boasts DisplayPort 1.4 and HDMI 2.0, which allow you to connect two more displays with your laptop so that you have a wider playing view. Its keyboard comes with a customized Predator typeface so that your gaming experience is enhanced. Furthermore, the Waves MaxxAudio ensures that your audio experience is immersive.",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "name": "One Plus",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "description": "48MP rear camera with 4K video at 30/60 fps, 1080P video at 30/60 fps, super slow motion: 720p video at 480 fps, 1080p video at 240fps, time-lapse: 1080P 30fps, 4k 30fps, CINE aspect ratio video recording, ultrashot HDR, nightscape, micro, portrait, pro mode, panorama, cat&dog face detection&focus, AI scene detection, RAW image | 16MP front camera.",
+      "categoryId": 2
+    },
+    {
+      "id": 9,
+      "name": "JBL",
+      "imageUrl": "../assets/images/laptop.jpg",
+      "description": "Fill your living room or bedroom with cinematic audio of your favorite shows with the JBL Moviebar 80 Dolby Digital 110 W Bluetooth Soundbar. This home audio device features Dolby Digital technology for immersive sounds, a Wired Subwoofer for bass-heavy music, and a Dual Cable Connection to connect it easily to your TV.",
+      "categoryId": 3
+    }
+  ]
+}

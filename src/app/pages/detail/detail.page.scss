@@ -1,0 +1,16 @@
+.image-allignment{
+    height: 100%;
+    width: 100%;
+}
+.text-allignment{
+    align-items: center;
+    display: flex;
+    line-height: 20px;
+}
+ion-item,ion-row{
+    width: 100%;
+}
+.align-center{
+    font-size: 25px;
+    text-align: center;
+}

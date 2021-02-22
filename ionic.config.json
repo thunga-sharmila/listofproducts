@@ -1,0 +1,7 @@
+{
+  "name": "zimbra-assesment",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

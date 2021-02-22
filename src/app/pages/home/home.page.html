@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Products</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+  <ion-list>
+    <ion-list-header>
+      <ion-item lines="none">
+        <ion-label class="align-center">
+          Product Listing Page
+        </ion-label>
+      </ion-item>
+    </ion-list-header>
+  
+    <ion-item lines="none">
+      <ion-label>Category</ion-label>
+      <ion-select [compareWith]="compareWith" (ionChange)="displayCategoryProduct($event)">
+        <ion-select-option *ngFor="let user of categoriesList" [value]="user">{{user.name}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-grid>
+    <ion-row>
+      <ion-col *ngFor="let item of displayProductList">
+        <ion-card (click)="productDetails(item.id)">
+          <ion-card-header>
+            <ion-grid>
+              <ion-row>
+                <ion-col class="align-content-center">
+                  <ion-thumbnail>
+                    <ion-img [src]="item.imageUrl"></ion-img>
+                  </ion-thumbnail>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-card-header>
+        
+          <ion-card-content>
+            <ion-item lines="none"><ion-label class="ion-text-center">{{item.name}}</ion-label></ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

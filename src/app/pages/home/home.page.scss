@@ -1,0 +1,29 @@
+ion-toolbar{
+    h2{
+        text-align: center;
+    }
+}
+
+.select-input .ng-value-container {
+    padding-left:30px !important;
+}
+ion-thumbnail{
+    height: 200px;
+    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+}
+ion-list-header,ion-item{
+    justify-content: center;
+    //display: grid;
+    width: 100%;
+}
+
+.align-content-center{
+    display: flex;
+    justify-content: center;
+}
+.align-center{
+    font-size: 25px;
+    text-align: center;
+}
